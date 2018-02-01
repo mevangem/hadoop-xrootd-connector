@@ -10,7 +10,7 @@ organization: CERN
 
 CERN [EOS](https://eos.web.cern.ch/) is a disk-based, low-latency storage service with a highly scalable hierarchical namespace, which enables data access via the [XRootD protocol](http://xrootd.org/). It is the main solution for both physics and user storage needs at CERN and it is used by all the LHC Experiments.
 
-The latest years, a substantial amount of effort has been put into making it possible to perform physics analysis with popular Big Data Technologies from the Hadoop Ecosystem, such as Apache [Spark](https://spark.apache.org/), an open-source software framework for large-scale big data processing. However, one of the most important drawbacks to this effort was the need to transfer large amount of data from the EOS Storage Service to the HDFS of Hadoop Clusters.
+Lately, a substantial amount of effort has been put into making it possible to perform physics analysis with popular Big Data Technologies from the Hadoop Ecosystem, such as Apache [Spark](https://spark.apache.org/), an open-source software framework for large-scale big data processing. However, one of the most important drawbacks to this effort was the need to transfer large amount of data from the EOS Storage Service to the HDFS of Hadoop Clusters.
 
 To overpass this issue, the "[Hadoop-XRootD Connector](https://github.com/cerndb/hadoop-xrootd)" was created, a Java based library that connects to the XRootD Client via the Java Native Interface Framework ([JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/jniTOC.html)). The library is capable of reading files from the EOS Storage Service directly, without the need to import or export files to HDFS.
 

@@ -39,3 +39,5 @@ JAVA, JNI, C++, Spark, Hadoop
   * [Hadoop-XRootD Connector](https://github.com/cerndb/hadoop-xrootd)
   * [Spark](http://spark.apache.org)
   * [Hadoop API FileSystem](https://hadoop.apache.org/docs/r2.8.2/api/org/apache/hadoop/fs/FileSystem.html)
+  * [CERN Open Data](http://opendata.cern.ch/)
+

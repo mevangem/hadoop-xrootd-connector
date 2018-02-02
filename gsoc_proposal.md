@@ -35,9 +35,8 @@ JAVA, JNI, C++, Spark, Hadoop
   * [Prasanth Kothuri](mailto:prasanth.kothuri@cern.ch)
   
 ## Links
-  * [EOS](https://eos.web.cern.ch/)
   * [Hadoop-XRootD Connector](https://github.com/cerndb/hadoop-xrootd)
+  * [EOS](https://eos.web.cern.ch/)
   * [Spark](http://spark.apache.org)
   * [Hadoop API FileSystem](https://hadoop.apache.org/docs/r2.8.2/api/org/apache/hadoop/fs/FileSystem.html)
   * [CERN Open Data](http://opendata.cern.ch/)
-

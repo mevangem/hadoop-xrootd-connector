@@ -14,7 +14,7 @@ Lately, a substantial amount of effort has been put into making it possible to p
 
 To overpass this issue, the "[Hadoop-XRootD Connector](https://github.com/cerndb/hadoop-xrootd)" was created, a Java based library that connects to the XRootD Client via the Java Native Interface Framework ([JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/jniTOC.html)). The library is capable of reading files from the EOS Storage Service directly, without the need to import or export files to HDFS.
 
-The project aims to address the existing feature requirements of the "Hadoop-XRootD Connector" as well as expanding and optimizing the existing codebase of the library in order to make it production-ready.
+The project aims to address the existing feature requirements of the "Hadoop-XRootD Connector" as well as expanding and optimizing the existing codebase of the library in order to make it production-ready. A successful outcome will not only allow researchers at CERN to perform analysis over PBs of physics and infrastructure data with Apache Spark and other popular Big Data Technologies, but also literally any other user or insitution outside CERN to easily access PBs of physics data in the Hadoop ecosystem via the [CERN Open Data](http://opendata.cern.ch/) Project.
 
 ## Task ideas
  * Optimize the caching and request size features to minimize the performance gap between streaming files from EOS and reading natively from HDFS.
